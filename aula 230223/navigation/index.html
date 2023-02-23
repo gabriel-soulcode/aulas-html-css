@@ -1,0 +1,76 @@
+<!-- 
+    CSS -> Cascading Style Sheet
+    inline -> style=""
+    interno -> <style></style>
+    externo -> style.css <link>
+ -->
+
+ <!-- 
+    Prioridade CSS:
+    inline > interno > externo
+  -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula de HTML e CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* seletor */
+        li {
+            font-family: Calibri;
+        }
+        footer {
+            color: orangered;
+        }
+        strong {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://soulcode.com/assets/img/logo.png">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" style="color: red;">Home</a>
+                </li>
+                <li>
+                    <a href="./contato.html" style="color: blue;">Contato</a>
+                </li>
+                <li>
+                    <a href="./imprensa.html">Imprensa</a>
+                </li>
+                <li>
+                    <a href="./sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 style="font-family: Arial;">Home</h1>
+            <p id="p-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi placeat officia provident deserunt delectus amet ullam aut assumenda maxime minima error cupiditate, nam repudiandae dolor quasi, quo corporis <i>veritatis</i>.
+            </p>
+            <p id="p-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis qui assumenda saepe voluptatibus vitae magni aperiam rem, nostrum vero <i>recusandae</i> eum, illum odit pariatur dolor autem expedita quisquam tempore? Itaque?
+            </p>
+        </section>
+
+        <section>
+            <article class="artigo">
+                <img src="./images/eu-a-patroa-e-as-criancas.jpeg">
+                <small>
+                    Capa da serie Eu a Patroa e as Crianças. Ator que interpreta o Michel é pego por fãs em Shopping de São Paulo.
+                </small>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <small> &copy; <strong>Soulcode.com</strong>. Todos os direitos reservados. </small>
+    </footer>
+</body>
+</html>

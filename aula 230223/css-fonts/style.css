@@ -1,0 +1,33 @@
+/* * -> Seletor universal */
+* {
+    /* Alterar fonte padrão do documento */
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+h1, h2 {
+    /* Alterar o tamanho da fonte */
+    font-size: 35px;
+    /* Alterar o peso da fonte (Negrito) */
+    font-weight: 700; /* 100, 200, 300, 400, 700 */
+}
+
+h1 {
+    /* Sobreamento no texto */
+    text-shadow: 2px 2px 10px rgb(100, 10, 64);
+    /* x, y, espessura, cor */
+}
+
+h2 {
+    /* Aplica itálico na fonte */
+    font-style: italic;
+    color: #f10c49; /* rgb(50, 70, 120), #f10c49, red */
+}
+
+p {
+    /* Alinhamento de texto */
+    text-align: justify; /* justify, left, right, center */
+    /* Tranformações no texto */
+    text-transform: uppercase; /* capitalize, uppercase, lowercase */
+    /* Altura da linha */
+    line-height: 23px;
+}
