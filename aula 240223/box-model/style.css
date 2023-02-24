@@ -1,0 +1,65 @@
+* {
+    /* 
+        border-box -> Tamanho da caixa -> width
+        content-box -> Tamanho da caixa -> width + padding + border
+    */
+    box-sizing: border-box;
+}
+
+/* 
+    Box-Model -> Modelo de Caixa
+    * Largura
+    * Altura
+    * Borda
+    * Espaçamento interno
+    * Margem
+*/
+
+header {
+    width: 100%; /* Largura da caixa */
+    height: 100px; /* Altura da caixa */
+    
+    border: 2px solid rgb(62, 122, 66); /* largura tipo cor */
+    /*
+        border-width: 2px;
+        border-style: solid; solid, dashed, dotted, none, hidden
+        border-color: black;
+    */
+    /* 
+        Arrendodamento nas bordas 
+        border-radius: 8px; 
+    */
+    /*
+        Aplicar borda apenas a esquerda do elemento
+        border-left: 3px solid blue;
+    */
+
+    /* Espaçamento interno (padding) */
+    /*
+        Aplicar 30px de espaçamento em todos os sentidos
+        padding: 30px;
+    */
+    /* 
+        Aplicar espaçamentos em sentidos definidos
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    */
+    /* padding: 20px 30px 20px 30px; top, right, bottom, left */
+    /* Aplica 20px em cima e embaixo e 30px nos lados */
+    padding: 20px 30px;
+}
+
+header a {
+    /* 
+        Margem - Espaçamento Externo (margin)
+    */
+    margin: 20px;
+    padding: 3px;
+    /* margin-right: 20px; */
+    /* 
+        Aplicar margen especificando os quatro sentidos
+        margin: 10px 20px 30px 40px;
+    */
+}

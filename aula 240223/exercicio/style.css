@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+section article {
+    width: 300px;
+    border: 1px solid #45b0b2;
+    margin: 20px;
+}
+
+section article img {
+    width: 100%;
+}
+
+section article p {
+    text-align: justify;
+    margin: 20px 30px;
+}
