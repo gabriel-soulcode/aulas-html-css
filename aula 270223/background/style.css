@@ -1,0 +1,71 @@
+/* 
+    background - plano de fundo
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.primeiro {
+    /* Aplicar cor de fundo */
+    background-color: rgb(233, 18, 158);
+}
+
+.segundo {
+    /* 
+        background: linear-gradient(to left, #f7f00d, #1658f1, #41ea17);
+        background: linear-gradient(to right, #f7f00d, #1658f1, #41ea17);
+        background: linear-gradient(to top, #f7f00d, #1658f1, #41ea17);
+        background: linear-gradient(to bottom, #f7f00d, #1658f1, #41ea17);
+    */
+    background: linear-gradient(45deg, #f7f00d, #1658f1, #41ea17);
+}
+
+.terceiro {
+    background: radial-gradient(#000000, #f16a16, #e9e9e9);
+}
+
+.quarto {
+    background: rgb(9,145,109);
+    background: linear-gradient(324deg, rgba(9,145,109,1) 0%, rgba(74,201,27,1) 100%);
+}
+
+.screen {
+    /* 
+        vw -> View Width (Largura da Tela)
+        vh -> View Height (Altura da Tela)
+    */
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    background-image: url(./plano-de-fundo.png);
+    /* 
+        background-repeat: repeat;
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+     */
+    background-repeat: no-repeat;
+    /* 
+        background-position: center center;
+        background-position: 90% 0%;
+    */
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* 
+        background-attachment: scroll;
+     */
+    background-attachment: fixed;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #00000088;
+}

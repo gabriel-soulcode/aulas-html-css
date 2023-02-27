@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("./praia-do-norte-na-nazare-portugal-com-ondas-espumantes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #5e5d5d;
+    padding: 20px;
+}
+
+header a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(59, 207, 207);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
+
+header a:hover {
+    transform: scale(1.1);
+}
+
+header a:active {
+    background-color: rgb(28, 103, 103); 
+}

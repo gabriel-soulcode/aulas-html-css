@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 10px 5px;
+    background-color: rgb(25, 148, 25);
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial;
+    border-radius: 8px;
+
+    text-decoration: none; /* Remove o underline do link */
+    color: white;
+
+    /* Transições (Aplicar efeito de suavidade na trocar de estilo das propriedades CSS) */
+    transition-property: all; /* Definir propriedade de transição */
+    transition-duration: 0.2s; /* Definir a duração da transição */
+}
+
+/* Pseudo Classe */
+
+/* 
+a:visited {
+    background-color: rgb(105, 46, 132); 
+} 
+*/
+
+a:hover {
+    background-color: rgb(10, 63, 10);
+    transform: scale(1.1); /* Aumenta a escala do elemento em 110% */
+    /* width: 110px;
+    height: 45px; */
+}
+
+a:active {
+    background-color: rgb(174, 28, 28);
+}
