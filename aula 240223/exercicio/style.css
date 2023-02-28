@@ -11,6 +11,7 @@ section article {
     width: 300px;
     border: 1px solid #45b0b2;
     margin: 20px;
+    display: inline-block;
 }
 
 section article img {

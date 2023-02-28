@@ -1,0 +1,24 @@
+/* 
+    Display -> Visulização
+    * block -> Ocupa todo a largura disponivel do container
+    * inline -> Ocupa o espaço em linha (um lado do outro)
+    * inline-block -> Se comporta como bloco mas os elementos são dispostos um ao lado do outro
+*/
+
+.border {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.bloco {
+    display: block;
+}
+
+.inline {
+   /* display: inline;  */
+   display: inline-block;
+}
+
+.none {
+   display: none;
+}
