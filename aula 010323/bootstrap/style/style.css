@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d4d4d4;
+}
+
+.card {
+    width: 300px;
+    display: inline-block !important;
+}
+
+.carousel {
+    width: clamp(320px, 100%, 910px); /* min, relativo, max */
+    margin: 10px auto;
+}

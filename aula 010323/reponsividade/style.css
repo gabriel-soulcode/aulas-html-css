@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.main .artigo {
+    background-color: aquamarine;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 
+    Responsividade -> Capacidade de um site/aplicação web se adaptar a diferentes dispositivos
+*/
+
+/* orientation: landscape (paisagem) | portrait (retrato) */
+
+/* Se o dispositivo tiver uma largura menor ou igual a 720px e orientação retrato */
+@media(max-width: 720px) and (orientation: portrait) {
+    .main .artigo {
+        background-color: rgb(255, 127, 255);
+        width: 250px;
+        height: 270px;
+    }
+    h1 {
+        color: rgb(255, 127, 255);
+    }
+}
+
+/* Se o dispositivo tiver uma largura menor ou igual a 600px ou orientação paisagem */
+/* Break Points - Pontos de Quebra */
+@media(max-width: 600px), (orientation: landscape) {
+    .main .artigo {
+        background-color: rgb(220, 97, 63);
+        width: 150px;
+        height: 175px;
+    }
+    h1 {
+        color: rgb(220, 97, 63);;
+    }
+}
+
+/* Mobile First (Movel Primeiro) */
+/* Se o dispositivo tiver uma largura maior ou igual a 800px */
+@media(min-width: 800px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/* Se o dispositivo tiver uma largura maior ou igual a 1000px */
+@media(min-width: 1000px) {
+    h1 {
+        font-size: 70px;
+    }
+}
